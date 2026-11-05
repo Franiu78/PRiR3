@@ -5,7 +5,7 @@ from receive import receive_all
 from send import send_all
 from task1_parallel_image import process_fragment
 
-SERVER_IP = "172.20.10.15"
+SERVER_IP = "172.20.10.14"
 
 
 def client_main(host=SERVER_IP, port=2040):

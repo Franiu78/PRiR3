@@ -38,7 +38,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Serwer: dzieli obraz i rozsyła fragmenty do klientów.")
     parser.add_argument("image", nargs="?", default="input.JPG", help="Obraz wejściowy")
     parser.add_argument("--clients", type=int, default=2, help="Liczba klientów (fragmentów)")
-    parser.add_argument("--host", default="0.0.0.0", help="Adres nasłuchiwania (domyślnie wszystkie interfejsy)")
+    parser.add_argument("--host", default="172.20.10.14", help="Adres nasłuchiwania (domyślnie wszystkie interfejsy)")
     parser.add_argument("--port", type=int, default=2040)
     parser.add_argument("--output", default="processed_image.png")
     args = parser.parse_args()
