@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""Zadanie 1: Rownolegle przetwarzanie obrazu z uzyciem multiprocessing.Pool.
-
-Program:
-1) Wczytuje obraz,
-2) Dzieli go na fragmenty,
-3) Przetwarza kazdy fragment w osobnym procesie (wlasny filtr Sobela na NumPy),
-4) Scala wynik i zapisuje obraz wyjsciowy.
-"""
-
 from __future__ import annotations
 
 import argparse
